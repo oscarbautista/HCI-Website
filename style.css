@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 50px;
+  margin: 0 70px;
   font-weight: 500;
   text-align: center;
 }
@@ -20,7 +20,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 
-  margin: 50px;
+  margin: 50px 70px;
 }
 
 #desc {
@@ -41,15 +41,16 @@ h2 {
   width: 262px;
   transform: rotateX(30deg) rotateY(10deg) rotateZ(-45deg);
   box-shadow:-5px 5px 15px rgba(0, 0, 0, 0.5);
-  position: absolute;
+  position: relative;
+  margin-bottom: -430px;
 }
 
-#img3 {
-  top: 320px;
+#img1 {
+  z-index: 2;
 }
 
 #img2 {
-  top: 290px;
+  z-index: 1;
 }
 
 #milestones {
@@ -67,6 +68,7 @@ h2 {
   outline: none;
   padding: 20px;
   transition: all 200ms ease-in-out;
+  letter-spacing: .08em;
 }
 
 #milestones button:hover {
