@@ -104,4 +104,14 @@ h2 {
   #screenshots {
     height: 650px;
   }
+
+  #milestones {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #milestones a {
+    width: 140px;
+    margin: 10px 0;
+  }
 }
