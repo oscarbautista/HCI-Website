@@ -57,6 +57,7 @@ h2 {
 #milestones {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   margin: 150px 50px;
 }
@@ -72,6 +73,7 @@ h2 {
   text-decoration: none;
   transition: all 200ms ease-in-out;
   letter-spacing: .08em;
+  margin: 10px;
 }
 
 #milestones a:hover {
@@ -103,15 +105,5 @@ h2 {
 
   #screenshots {
     height: 650px;
-  }
-
-  #milestones {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #milestones a {
-    width: 140px;
-    margin: 10px 0;
   }
 }
